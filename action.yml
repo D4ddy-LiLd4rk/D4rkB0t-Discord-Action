@@ -1,11 +1,11 @@
-name: 'Your name here'
-description: 'Provide a description here'
-author: 'Your name or organization here'
+name: 'D4rkB0t Discord Action'
+description: 'This Action will post Notifications on the D4rkB0t Support Discord Server.'
+author: 'D4ddy-LiLd4rk'
 inputs:
-  milliseconds: # change this
+  type: # change this
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
+    description: 'Type to differ ouput'
+    default: 'info'
 runs:
   using: 'node16'
   main: 'dist/index.js'
