@@ -58,7 +58,7 @@ async function run() {
             content: '',
             embed: {
                 title: 'New Commit',
-                description: github.context.payload.commits?.message,
+                description: 'desc',
                 url: github.context.payload.commits?.url,
                 color: '#833FBA',
                 thumbnail: 'https://cdn.discordapp.com/attachments/673102744181145630/1117424467208048690/skullpppurp2.png',
