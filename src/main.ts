@@ -14,7 +14,7 @@ async function run(): Promise<void> {
       content: '',
       embed: {
         title: 'New Commit',
-        description: github.context.payload.commits?.message,
+        description: 'desc', //github.context.payload.commits?.message,
         url: github.context.payload.commits?.url,
         color: '#833FBA',
         thumbnail:
